@@ -89,10 +89,3 @@ CREATE TABLE orders(
                order_hour    INTEGER   NOT NULL,
                days_since    INTEGER
             );
-
-
-COPY orders(order_id,user_id,eval_set,order_number,order_dow,order_hour,days_since) FROM '/home/constance/Bureau/Constance/Kaggle/Instacart/Data/orders_formatted.csv' DELIMITER ',' CSV HEADER;
-
-
-
-

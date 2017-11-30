@@ -4,7 +4,6 @@
 
 from psycopg2 import connect, OperationalError
 from numpy import array
-from pdb import set_trace as st
 
 NB_USERS = 206209
 NB_PRODUCTS = 49688
